@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vierbom.opensourcejun.activity.ChapterActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#CC03A9F4" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#CC03A9F4" />
+
+    <com.indris.material.RippleView
+        android:id="@+id/widgets"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+
+        android:background="@drawable/card_bg"
+        android:gravity="center"
+
+        android:text="@string/widgets"
+        android:textSize="@dimen/abc_text_size_large_material"
+        ripple:alphaFactor="0.7"
+        ripple:hover="false"
+        ripple:rippleColor="#58FAAC" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#CC03A9F4" />
+
+    <com.indris.material.RippleView
+        android:id="@+id/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/card_bg"
+        android:gravity="center"
+        android:text="@string/tools"
+        android:textSize="@dimen/abc_text_size_large_material"
+        ripple:alphaFactor="0.7"
+        ripple:hover="false"
+        ripple:rippleColor="#58FAAC" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#CC03A9F4" />
+
+    <com.indris.material.RippleView
+        android:id="@+id/projects"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/card_bg"
+        android:gravity="center"
+        android:text="@string/projects"
+        android:textSize="@dimen/abc_text_size_large_material"
+        ripple:alphaFactor="0.7"
+        ripple:hover="false"
+        ripple:rippleColor="#58FAAC" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#CC03A9F4" />
+
+    <com.indris.material.RippleView
+        android:id="@+id/test_tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/card_bg"
+        android:gravity="center"
+        android:text="@string/test_tools"
+        android:textSize="@dimen/abc_text_size_large_material"
+        ripple:alphaFactor="0.7"
+        ripple:hover="false"
+        ripple:rippleColor="#58FAAC" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#CC03A9F4" />
+
+    <com.indris.material.RippleView
+        android:id="@+id/guys"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/card_bg"
+        android:gravity="center"
+        android:text="@string/guys"
+        android:textSize="@dimen/abc_text_size_large_material"
+        ripple:alphaFactor="0.7"
+        ripple:hover="false"
+        ripple:rippleColor="#58FAAC" />
+</LinearLayout>

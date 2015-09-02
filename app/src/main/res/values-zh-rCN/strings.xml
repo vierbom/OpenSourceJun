@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">开源君</string>
+    <string name="dummy_button">走起！</string>
+    <string name="dummy_content">不用多久我就会升职加薪，当上总经理，出任CEO，迎娶白富美，走上人生巅峰！</string>
+    <string name="tools">工具库篇</string>
+    <string name="widgets">个性化控件篇</string>
+    <string name="projects">优秀项目篇</string>
+    <string name="test_tools">开发及测试工具篇</string>
+    <string name="guys">优秀个人和团体篇</string>
+</resources>

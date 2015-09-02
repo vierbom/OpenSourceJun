@@ -1,0 +1,78 @@
+[
+  {
+    "chapter": "个性化控件篇",
+    "section": "ListView",
+    "name": "android-pulltorefresh",
+    "introduce": "一个强大的拉动刷新开源项目，支持各种控件下拉刷新，ListView、ViewPager、WebView、ExpandableListView、GridView、ScrollView、Horizontal ScrollView、Fragment 上下左右拉动刷新，比下面 johannilsson 那个只支持 ListView 的强大的多。并且它实现的下拉刷新 ListView 在 item 不足一屏情况下也不会显示刷新提示，体验更好。",
+    "address": "https://github.com/chrisbanes/Android-PullToRefresh",
+    "demo": "https://github.com/Trinea/TrineaDownload/blob/master/pull-to-refreshview-demo.apk?raw=true",
+    "example": "新浪微博各个页面",
+    "pic": "https://raw.githubusercontent.com/chrisbanes/Android-PullToRefresh/master/header_graphic.png"
+  },
+  {
+    "chapter": "个性化控件篇",
+    "section": "ListView",
+    "name": "android-pulltorefresh-listview",
+    "introduce": "下拉刷新 ListView，这个被很多人使用的项目实际有不少 bug，推荐使用 android-Ultra-Pull-to-Refresh",
+    "address": "https://github.com/johannilsson/android-pulltorefresh",
+    "demo": "https://github.com/Trinea/TrineaDownload/blob/master/pull-to-refresh-listview-demo.apk?raw=true",
+    "example": "无",
+    "pic": "https://raw.githubusercontent.com/johannilsson/android-pulltorefresh/master/android-pull-to-refresh.png"
+  },
+  {
+    "chapter": "个性化控件篇",
+    "section": "ListView",
+    "name": "android-Ultra-Pull-to-Refresh",
+    "introduce": "下拉刷新，第一个项目已经停止维护了，并且使用起来相对复杂，定制性也差。这个是替代和改良方案。这个继承于 ViewGroup 可以包含任何 View。功能甚至比 SwipeRefreshLayout 强大。使用起来非常简单。良好的设计，如果你想定制自己的 UI 样式，非常简单，就像给 ListView 加一个 Header View 那么简单。支持 API LEVEL >= 8",
+    "address": "https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh",
+    "demo": "https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh/blob/master/ptr-demo/target/ultra-ptr-demo.apk?raw=true",
+    "example": "无",
+    "doc": "http://codekk.com/open-source-project-analysis/detail/Android/Grumoon/android-Ultra-Pull-To-Refresh%20%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90",
+    "pic": "https://camo.githubusercontent.com/588a2ef2cdcfb6c71e88437df486226dd15605b3/687474703a2f2f737261696e2d6769746875622e71696e6975646e2e636f6d2f756c7472612d7074722f73746f72652d686f7573652d737472696e672d61727261792e676966"
+  },
+  {
+    "chapter": "个性化控件篇",
+    "section": "ListView",
+    "name": "DragSortListView",
+    "introduce": "拖动排序的 ListView，同时支持 ListView 滑动 item 删除，各个 Item 高度不一、单选、复选、CursorAdapter 做为适配器、拖动背景变化等",
+    "address": "https://github.com/bauerca/drag-sort-listview",
+    "demo": "https://play.google.com/store/apps/details?id=com.mobeta.android.demodslv",
+    "example": "Wordpress Android"
+  },
+  {
+    "chapter": "个性化控件篇",
+    "section": "ListView",
+    "name": "SwipeListView",
+    "introduce": "支持定义 ListView 左右滑动事件，支持左右滑动位移，支持定义动画时间",
+    "address": "https://github.com/47deg/android-swipelistview",
+    "demo": "https://play.google.com/store/apps/details?id=com.fortysevendeg.android.swipelistview",
+    "example": "微信"
+  },
+  {
+    "chapter": "个性化控件篇",
+    "section": "ListView",
+    "name": "Android-SwipeToDismiss",
+    "introduce": "滑动 Item 消失 ListView，支持 3.0 以下版本",
+    "address": "https://github.com/JakeWharton/SwipeToDismissNOA",
+    "demo": "https://github.com/JakeWharton/SwipeToDismissNOA/SwipeToDismissNOA.apk/qr_code",
+    "example": "无"
+  },
+  {
+    "chapter": "个性化控件篇",
+    "section": "ListView",
+    "name": "RecyclerViewSwipeDismiss",
+    "introduce": "轻量级支持 support-v7 中的 RecyclerView 的滑动删除(Swipe to dismiss)行为，不需要修改源代码，只要简单的绑定onTouchListener",
+    "address": "https://github.com/CodeFalling/RecyclerViewSwipeDismiss",
+    "example": "无",
+    "pic": "https://raw.githubusercontent.com/CodeFalling/RecyclerViewSwipeDismiss/master/RecyclerViewSwipeDismiss.gif"
+  },
+  {
+    "chapter": "个性化控件篇",
+    "section": "ListView",
+    "name": "PinnedHeaderExpandableListView",
+    "introduce": "首先它是一个 ExpandableListView，但是它的头部可以固定，其次，在它的上面还有一个头部可以来回伸缩",
+    "address": "https://github.com/singwhatiwanna/PinnedHeaderExpandableListView",
+    "example": "百度手机卫士垃圾清理界面",
+    "pic": "https://camo.githubusercontent.com/fa7f516b0b6e2921007a17cbc359b3f661f32226/687474703a2f2f696d672e626c6f672e6373646e2e6e65742f32303134303531313135313534363834333f77617465726d61726b2f322f746578742f6148523063446f764c324a736232637559334e6b626935755a58517663326c755a33646f5958527064324675626d453d2f666f6e742f3561364c354c32542f666f6e7473697a652f3430302f66696c6c2f49304a42516b46434d413d3d2f646973736f6c76652f37302f677261766974792f536f75746845617374"
+  }
+]

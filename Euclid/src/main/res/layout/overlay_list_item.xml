@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray">
+
+    <include
+        layout="@layout/list_item"
+        android:id="@+id/wrapper_list_item" />
+
+    <LinearLayout
+        android:id="@+id/wrapper_list_item_reveal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/wrapper_list_item"
+        android:layout_alignBottom="@+id/wrapper_list_item"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:background="@color/gray">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/image_view_reveal_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_profile_image"
+            android:clickable="true"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:placeholderImage="@drawable/picture_nor"
+            fresco:actualImageScaleType="fitCenter"/>
+
+    </LinearLayout>
+
+</io.codetail.widget.RevealFrameLayout>

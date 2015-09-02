@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OpenSourceJun</string>
+    <string name="dummy_button">Let`s go!</string>
+    <string name="dummy_content">Share for happy coding!</string>
+
+    <string name="tools">Tools</string>
+    <string name="widgets">Widgets</string>
+    <string name="projects">Projects</string>
+    <string name="test_tools">Test Tools</string>
+    <string name="guys">Guys</string>
+</resources>
