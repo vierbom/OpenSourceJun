@@ -1,3 +1,4 @@
 include ':app'
 include ':RippleView'
 include ':Euclid'
+include ':BAnim_ListViewLibrary'

@@ -5,6 +5,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.haarman.listviewanimations.swinginadapters.AnimationAdapter;
+import com.haarman.listviewanimations.swinginadapters.prepared.ScaleInAnimationAdapter;
 import com.vierbom.opensourcejun.R;
 import com.vierbom.opensourcejun.adapter.SectionAdapter;
 import com.vierbom.opensourcejun.dataprovider.SectionProvider;
@@ -67,6 +69,9 @@ public class SectionActivity extends ActionBarActivity {
 //            Log.i("TTT", user.getSection());
 //        }
         SectionAdapter sectionAdapter = new SectionAdapter(this, sections);
-        sectionLv.setAdapter(sectionAdapter);
+        AnimationAdapter animAdapter = new ScaleInAnimationAdapter(
+                sectionAdapter);
+        animAdapter.setAbsListView(sectionLv);
+        sectionLv.setAdapter(animAdapter);
     }
 }

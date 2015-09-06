@@ -94,5 +94,6 @@
     <orderEntry type="library" exported="" name="support-annotations-22.1.1" level="project" />
     <orderEntry type="module" module-name="RippleView" exported="" />
     <orderEntry type="module" module-name="Euclid" exported="" />
+    <orderEntry type="module" module-name="BAnim_ListViewLibrary" exported="" />
   </component>
 </module>
