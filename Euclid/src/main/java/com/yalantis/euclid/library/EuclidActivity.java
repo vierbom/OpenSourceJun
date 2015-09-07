@@ -4,6 +4,8 @@ import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Paint;
 import android.graphics.RectF;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.RoundRectShape;
@@ -189,9 +191,21 @@ public abstract class EuclidActivity extends Activity {
 
 
         ((TextView) mOverlayListItemView.findViewById(R.id.text_view_name)).setText((String) item.get(EuclidListAdapter.KEY_NAME));
-        ((TextView) mOverlayListItemView.findViewById(R.id.text_view_example)).setText("APP示例："+(String) item.get(EuclidListAdapter.EXAMPLE));
+        ((TextView) mOverlayListItemView.findViewById(R.id.text_view_example)).setText("APP示例：" + (String) item.get(EuclidListAdapter.EXAMPLE));
         address= (String) item.get(EuclidListAdapter.ADDRESS);
-        mTextViewToolbarTitle.setText((String) item.get(EuclidListAdapter.KEY_NAME));
+        mTextViewToolbarTitle.setText("@" + item.get(EuclidListAdapter.KEY_NAME));
+        mTextViewToolbarTitle.getPaint().setFlags(Paint. UNDERLINE_TEXT_FLAG ); //下划线
+        mTextViewToolbarTitle.getPaint().setAntiAlias(true);//抗锯齿
+        mTextViewToolbarTitle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse(address);
+                intent.setData(content_url);
+                startActivity(intent);
+            }
+        });
         setProfileDetailsInfo(item);
 
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
