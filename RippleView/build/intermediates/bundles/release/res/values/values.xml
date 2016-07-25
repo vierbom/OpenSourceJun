@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="RippleView"><attr format="color" name="rippleColor"/><attr format="float" name="alphaFactor"/><attr format="boolean" name="hover"/></declare-styleable>
-    <!-- From: file:/Users/vierbom/Documents/workspace/OpenSourceJun/RippleView/res/values/strings.xml -->
-    <eat-comment/>
     <string name="app_name">RippleView</string>
-    <!-- From: file:/Users/vierbom/Documents/workspace/OpenSourceJun/RippleView/res/values/styles.xml -->
-    <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
